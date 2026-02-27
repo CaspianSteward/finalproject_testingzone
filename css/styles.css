@@ -1,0 +1,35 @@
+#map { height:  600px; 
+    width: 100%; 
+    align-items: center;}
+    
+    
+.leaflet-tooltip.my-labels {
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:normal;
+    color: rgb(165, 57, 175);
+    background-color: transparent;
+    border: transparent;
+    box-shadow: none;
+  }
+
+.legend {
+    margin-left: 10px;
+    font-size: 12px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 150px;
+    line-height: 30px;
+    border: black;
+    color: black;
+    background-color: white;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 8px;
+    opacity: 0.7;
+}
