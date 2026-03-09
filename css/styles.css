@@ -1,35 +1,51 @@
-#map { height:  600px; 
+#map { height:  700px; 
     width: 100%; 
     align-items: center;}
-    
-    
-.leaflet-tooltip.my-labels {
-    font-size: 15px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style:normal;
-    color: rgb(165, 57, 175);
-    background-color: transparent;
-    border: transparent;
-    box-shadow: none;
-  }
 
-.legend {
-    margin-left: 10px;
-    font-size: 12px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 150px;
-    line-height: 30px;
-    border: black;
-    color: black;
-    background-color: white;
+.button-container {
+    width: 550px;  
+    height: 30px;  
+    background-color: rgba(89, 57, 218, 0.431);  
+    padding: 5px;
+    margin: 5px; 
+    line-height: 0px;  
+    text-align: center;  
+    border: solid rgba(255, 255, 255, 0.548) 3px;  
+    margin-bottom: 40px !important;
+    margin-left: 10px !important;
+}  
+.button-container button {
+    margin-left: 6px;
 }
-.legend i {
-    width: 18px;
-    height: 18px;
-    float: left;
-    margin-right: 8px;
-    margin-top: 1px;
-    margin-bottom: 1px;
-    margin-left: 8px;
-    opacity: 0.7;
+
+.leaflet-control-minimap {
+    margin-bottom: 45px!important;
+}
+
+#sidebar {
+    width: 300px;             /* Sidebar width */
+    height: 100%;             /* Full height */
+    position: absolute;       /* Stick to the map */
+    top: 0;
+    right: 0;
+    padding: 15px;
+    background: #2c3e50;      /* Dark blue-gray background */
+    color: #ecf0f1;           /* Light text */
+    border-left: 2px solid #2980b9;  /* Optional border */
+    box-shadow: -2px 0 5px rgba(0,0,0,0.3); /* Optional shadow */
+    overflow-y: auto;         /* Scroll if content is tall */
+    font-family: Arial, sans-serif;
+}
+
+#sidebar h3, #sidebar h4 {
+    margin-top: 0;
+    color: #ecf0f1;
+}
+
+#sidebar ul {
+    padding-left: 20px;
+}
+
+#sidebar ul li {
+    margin-bottom: 5px;
 }
